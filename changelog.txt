@@ -1,0 +1,26 @@
+# Changelog - Rock, paper, scissors
+
+TBA: fix darkmode toggle/auto, responsive design for all devices, language switch
+
+## [1.1.0] - 2022-02-27
+### Added
+- Responsive design for mobile phones
+
+### Changed
+- Favicons over images (improved load time & better design)
+- Cleanup
+
+### Removed
+- Auto darkmode (buggy)
+
+
+## [1.0.1] - 2022-02-21
+### Added
+- Auto darkmode
+- Round counter
+
+
+## [1.0.0] - 2022-02-20
+### Initial release
+
+Szabo Gedeon - JDN57R

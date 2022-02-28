@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Szabó Gedeon JDN57R</title>
+		<link rel="stylesheet" href="assets/main.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://kit.fontawesome.com/a7757ec6bc.js" crossorigin="shekina.hu"></script>
+		<script src="assets/main.js" defer></script>
+	</head>
+	<body>
+		<h1>Webes 1. projekt:</h1>
+		<h2 style="color: darkslategray; text-align: center;">Kő, papír, olló!</a></h2>
+		<div class="fill">
+			<h3 class="score">
+	    		Játékos <span id="playerScore">0</span> - <span id="computerScore">0</span> Gép
+	  		</h3>
+	  	</div>
+
+  		<div class="PvC">
+  			<div class="column">
+	  			<div class="display">
+	               	<i class="fa-solid fa-user"></i>
+	            </div>
+            </div>
+            <div class="column">
+	            <div class="display computer">
+	                <i class="fa-solid fa-robot"></i>
+	            </div>
+            </div>
+        </div>
+
+        <h2 style="color: #7ae858;" id="text">Válassz egy ikont a kezdéshez:</h2>
+
+		<div class="row">
+			<div class="selection">
+	  			<div class="column">
+	  				<div class="card">
+	  					<button class="fa-regular fa-hand-back-fist" id="rock"></button>
+	  					<!--<p>kő</p>-->
+	  				</div>
+	  			</div>
+	  			<div class="column">
+	  				<div class="card">
+	  					<button class="fa-regular fa-hand" id="paper"></button>
+	  					<!--<p>papír</p>-->
+	  				</div>
+	  			</div>
+	  			<div class="column">
+	  				<div class="card">
+	  					<button class="fa-regular fa-hand-scissors" id="scissors"></button>
+	  					<!--<p>olló</p>-->
+	  				</div>
+	  			</div>
+			</div>
+		</div>
+
+		<h4 class="round">Menet: <span id="rnd">0</span> Döntetlen: <span id="drw">0</span></h4>
+
+		<p class="info">ver 1.1, Szabó Gedeon - JDN57R<br /> <i><a href="changelog.txt" target="_blank">Changelog</a></i></p>
+	</body>
+</html>

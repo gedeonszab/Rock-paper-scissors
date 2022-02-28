@@ -1,0 +1,166 @@
+.row {
+  margin-left: -8px;
+  display: flex;
+  justify-content: center;
+  height: 90px;
+}
+
+.column {
+  padding: 5px;
+  justify-content: center;
+}
+
+.selection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fill {
+  height: 50px;
+}
+
+.score {
+  background-color: #f0ede6;
+  font-size: 200%;
+  width: 20%;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.PvC {
+  padding: 5px;
+  margin-left: -8px;
+  display: flex;
+  justify-content: center;
+}
+
+.display {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  background : darkslategray;
+  height: 80px;
+  width: 80px;
+  font-size: 300%;
+  border-radius: 5px;
+  color: #fff7f7;
+}
+
+.round {
+  text-align: center;
+  color: darkslategray;
+  background-color: #f0ede6;
+  width: 20%;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.info {
+  text-align: center;
+  color: #d9d4cc;
+  font-size: 70%;
+}
+
+#rock, #paper, #scissors {
+  border: 0px;
+  outline: 16px;
+  background: none;
+  width:100%;
+}
+
+#computerScore {
+  color: #ff7154;
+}
+
+#playerScore {
+  color: #7ae858;
+}
+
+#drw {
+  color: orange;
+}
+
+a:link {
+  color: #518787;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: darkslategray;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #458a8a;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+button {
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  font-size: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #f1f1f1;
+  color: #ffd568;
+  border-radius: 5px;
+}
+
+button:hover {
+  color: #ff976b;
+}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #9999;
+  transform: translateY(4px);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: floralwhite;
+}
+
+h1 {
+  color: darkslategray;
+  font-size: 300%;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  color: darkslategray;
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .fill {
+    height: 70px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .round {
+    width: 72%;
+  }
+
+  .score {
+    width: 72%;
+  }
+}
